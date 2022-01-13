@@ -3,54 +3,71 @@
 	<head>
 		<meta charset="utf-8">
 		<title>subquatic | home</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="icon" href="favicon.ico">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+			<!--
+				Poppins:
+					Thin 100
+					Light 300
+					Regular 400
+					Bold 700
+				Rubik Mono One:
+					Regular 400
+			-->
 	</head>
 	<body>
-		<h1>subquatic</h1>
-		<p><em>Student (17) and Developer</em></p>
-		<p><em>he/him</em></p>
-		<p>Hey! It's nice to meet you! My name is subquatic, I love boba, my pet dog Apollo, and I also aspire to be a software developer. Welcome to my first personal site. :)</p>
-		<hr>
-		<h2>Get to know me!</h3>
-		<h3>Favorites</h3>
-		<ul>
-			<li>Color - Sage Green</li>
-			<li>Ice Cream Flavor - Cotton Candy or Green Tea</li>
-			<li>Book - Ghostwater by Will Wight</li>
-			<li>TV Series - Avatar: The Last Airbender</li>
-			<li>Movie - Black Panther</li>
-		</ul>
-		<h3>Hobbies</h3>
-		<ul>
-			<li>playing Minecraft</li>
-			<li>playing Flute and Alto Sax</li>
-			<li>watching Netflix and Disney+</li>
-			<li>reading</li>
-			<li>making TikToks</li>
-		</ul>
-		<hr>
-		<h2>Experience</h2>
-		<table>
-			<tr>
-				<td>Skript</td>
-				<td>5 years</td>
-			</tr>
-			<tr>
-				<td>JavaScript</td>
-				<td>2 years</td>
-			</tr>
-			<tr>
-				<td>HTML and CSS</td>
-				<td>1 day</td>
-			</tr>
-		</table>
-		<hr>
-		<h2>Photo Gallery</h2>
-		<p><em>coming soon...</em></p>
-		<!--
-		<img src="images/disneyland_family.heic" alt="Disneyland with Family">
-		<img src="images/halloween_2021.heic" alt="Halloween 2021 Group Costume">
-		<img src="images/senior_rec_family.HEIC" alt="Senior Rec Night - 1">
-		<img src="images/senior_rec_friends.jpg" alt="Senior Rec Night -">
-		-->
+		<div class="greeting">
+			<img src="images/skull.png" alt="my picture" id="skull">
+			<h1>subquatic</h1>
+			<p id="biography">Student (17) • Developer • he/him</p>
+			<p><span>Hey!</span> It's nice to meet you! My name is subquatic.<br>Welcome to my first personal site. :)</p>
+		</div>
+		<div class="about">
+			<h2 class="center">Get to know me!</h3>
+			<hr>
+			<div class="info">
+				<div>
+					<h3>Favorites</h3>
+					<ul>
+						<li>Color - Sage Green</li>
+						<li>Ice Cream Flavor - Cotton Candy or<br> Green Tea</li>
+						<li>Book - Ghostwater by Will Wight</li>
+						<li>TV Series - Avatar: The Last Airbender</li>
+						<li>Movie - Black Panther</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Hobbies</h3>
+					<ul>
+						<li>playing Minecraft</li>
+						<li>playing Flute</li>
+						<li>watching Netflix and Disney+</li>
+						<li>reading</li>
+						<li>making TikToks</li>
+						<li>coding</li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="center">Experience</h2>
+			<hr>
+			<table class="experience">
+				<tr>
+					<td>Skript</td>
+					<td class="duration">5 years</td>
+				</tr>
+				<tr>
+					<td>JavaScript</td>
+					<td class="duration">2 years</td>
+				</tr>
+				<tr>
+					<td>HTML and CSS</td>
+					<td class="duration">2 days</td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>
