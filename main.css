@@ -20,7 +20,7 @@ hr {
 	width: 5rem;
 }
 span {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 }
 td {
@@ -50,13 +50,18 @@ ul {
 .info {
 	display: flex;
 	justify-content: space-evenly;
-	margin-bottom: 30px;
 }
 #biography {
 	font-family: 'Rubik Mono One', sans-serif;
-	font-size: 1.1rem;
+	font-size: 0.7rem;
 	font-style: normal;
 	font-weight: regular;
+	margin-top: 10px;
+}
+#intro {
+	font-size: 1.15rem;
+	margin: 30px auto 60px;
+	width: 25%;
 }
 #skull {
 	margin-top: 75px;
