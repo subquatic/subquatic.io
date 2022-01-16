@@ -4,7 +4,7 @@ body {
 }
 h1 {
 	margin: 0px;
-	font-size: 3.75rem;
+	font-size: 6rem;
 }
 h2 {
 	color: #0356C8;
@@ -20,7 +20,7 @@ hr {
 	width: 5rem;
 }
 span {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 td {
@@ -53,15 +53,15 @@ ul {
 }
 #biography {
 	font-family: 'Rubik Mono One', sans-serif;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: regular;
 	margin-top: 10px;
 }
 #intro {
-	font-size: 1.15rem;
+	font-size: 1.25rem;
 	margin: 30px auto 60px;
-	width: 25%;
+	width: 40%;
 }
 #skull {
 	margin-top: 75px;
